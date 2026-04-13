@@ -1,0 +1,9 @@
+n=int(input("Enter the number of days:"))
+a=int(input("Enter the start hour:"))
+b=int(input("enter the end hour:"))
+c=b-a
+if c>5:
+   c=c-1
+   print("Actual working hours:",c)
+else:
+   print("Actual working hours:",c)
