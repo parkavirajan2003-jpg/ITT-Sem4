@@ -1,0 +1,12 @@
+from datetime import datetime
+t1=input("Enter the time 1 (00:00:00):")
+t2=input("Enter the time2 (00:00:00):")
+start = datetime.strptime(t1, "%H:%M:%S")
+end = datetime.strptime(t2, "%H:%M:%S")
+difference = end - start
+seconds = difference.total_seconds()
+print('Difference in seconds is:', seconds)
+minutes = seconds / 60
+print('Difference in minutes is:', minutes)
+hours = seconds / (60 * 60)
+print('Difference in hours is:', hours)
