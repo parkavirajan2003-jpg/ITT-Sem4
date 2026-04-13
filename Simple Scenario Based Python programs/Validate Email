@@ -1,0 +1,7 @@
+import re
+a = r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,7}"
+email1=input("Entera mail Id:")
+if re.fullmatch(a,email1):
+   print("Valid Mail")
+else:
+   print("Invalid Mail")
