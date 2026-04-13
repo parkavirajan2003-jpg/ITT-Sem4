@@ -1,0 +1,11 @@
+n=int(input("Enter the number of eggs:"))
+if n%2==0 and n>=6:
+   print("Yes,The customer can get cakes")
+   if n%6!=0:
+      print("He can also get pastries.")
+   else:
+      print("he can get only cake.")
+elif n%6!=0 and n%2==0 and n<6:
+   print("No,The customer cannot get cake but can get pastries.")
+else:
+   print("Nothing The no. of eggs is odd")
