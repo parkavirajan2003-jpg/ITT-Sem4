@@ -1,0 +1,13 @@
+tax=0
+Salary=float(input("Enter your salary:"))
+if(Salary<250000):
+   tax=0
+elif(Salary>250000 and Salary<500000):
+   tax=0.50*Salary
+elif(Salary>500000 and Salary<1000000):
+   tax=0.10*Salary
+elif(Salary>1000000):
+   tax=0.15*Salary
+else:
+   print("Invalid Value")
+print("Your Tax amount:",tax)
