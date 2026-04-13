@@ -1,0 +1,9 @@
+balance=100000
+withdraw=float(input("Enter amount to withdraw:"));
+if(withdraw<balance):
+   if(withdraw%100==0):
+      print("You can withdraw")
+   else:
+      print("Withdraw amount should be multiples of 100")
+else:
+   print("Withdraw amount should be less then balance.")
