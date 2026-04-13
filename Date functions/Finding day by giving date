@@ -1,0 +1,6 @@
+import datetime
+format = "%d/%m/%Y"
+date = input("Enter a date (dd/mm/yyyy): ")
+date_as_dt = datetime.datetime.strptime(date, format)
+print(date_as_dt.isoweekday())
+print(date_as_dt.strftime("%A"))
