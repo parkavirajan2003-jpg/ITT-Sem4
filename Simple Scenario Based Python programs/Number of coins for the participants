@@ -1,0 +1,22 @@
+A = int(input("Enter Suresh's initial coins (A):"))
+B = int(input("Enter Sundar's initial coins (B): "))
+C = int(input("Enter Raja's coins (C): "))
+D = int(input("Enter Suresh's extra coins (D):" ))
+print("Initial coin for Suresh:",A)
+print("Initial coin for Sundar:",B)
+if B > A:
+    A = A + C
+else:
+    B = B + C
+print("After adding C :")
+print("Suresh's coin:",A)
+print("Sundar's coin:",B)
+if B > A:
+   A = A + D
+else:
+   B = B + D
+print("Finally after adding D coin")
+if B > A:
+    print("Sundar has more coins with",B)
+else:
+    print("Suresh has more coins with",A)
