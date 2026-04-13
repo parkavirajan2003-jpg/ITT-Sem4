@@ -1,0 +1,6 @@
+age=int(input("Enter your age:"));
+if(age>=18):
+  ans="eligible"
+else:
+  ans="not eligible"
+print("You are ",ans ,"to vote");
