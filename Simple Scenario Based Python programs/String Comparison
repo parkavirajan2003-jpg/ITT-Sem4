@@ -1,0 +1,7 @@
+s1=input("Enter a string1:")
+s2=input("Enter a string2:")
+for i in range(0,len(s1)):
+   for j in range(0,len(s2)):
+      if i==j and index(i)==index(j):
+         print("hit=",i)
+      print("nearHit=",i)
