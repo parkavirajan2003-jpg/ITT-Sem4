@@ -1,0 +1,7 @@
+N=int(input("Enter number of tyres:"))
+if N % 4 != 0 and N % 2==0:
+    print("Yes \nWe can manufacture Bike.")
+elif N % 4 == 0 and N >= 2:
+    print("No\nWe can manufacture only Cars.")
+else:
+   print("No\nWe can manufacture nothing.")
