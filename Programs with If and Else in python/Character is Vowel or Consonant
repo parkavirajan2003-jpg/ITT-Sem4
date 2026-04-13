@@ -1,0 +1,6 @@
+i=input("Enter character:")
+vowels="aeiouAEIUO"
+if(i in vowels):
+   print("Vowel")
+else:
+   print("Consonant")
