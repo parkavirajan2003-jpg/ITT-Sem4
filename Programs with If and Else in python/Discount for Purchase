@@ -1,0 +1,9 @@
+purchase=int(input("Enter purchase amount"))
+discount=0
+bill=purchase
+if(purchase>=3000):
+   if(purchase>=5000):
+      bill=bill-(purchase*0.2)
+   else:
+      bill=bill-(purchase*0.1)
+print("Final bill amount:",bill)
