@@ -1,0 +1,6 @@
+a=int(input("Enter number a :"))
+b=int(input("Enter number b :"))
+if(a>=0 and b<=1000):
+   print("Sum:",a+b)
+else:
+   print("Invalid input")
